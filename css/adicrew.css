@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.red {
+    text-decoration: none;
+    margin-left: 0.5em;
+    color: #d6d6d6;
+}
+
+.redes {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-envelope:hover,
+.fa-instagram:hover {
+    color: #a30000;
+}
+
+.color {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-link {
+    font-size: 0.7em;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #000 !important;
+}
+
+.nav-link:hover small{
+    color: #a30000 !important;
+}
+
+.nav-link:hover{
+    color: #a30000 !important;
+}
+small {
+    color: dimgrey;
+    font-size: 0.7em;
+}
+
+.active a{
+    color: #a30000 !important;
+}
+
+.active small{
+    color: #a30000 !important;
+}
+
+li {
+    margin-right: 3em;
+}
+
+#menu2 {
+		position: fixed;
+        z-index: 99999;
+		width: 100%;
+        background-color: blue;
+		color: white;
+}
+
+.ajusta {
+    margin-top: -15px !important;
+}
+
+.reajuste {
+    margin: 0px;
+    padding: 0px;
+}
+
+.airetop {
+    margin-top: 5em;
+}
+
+
+
+.centrar {
+    text-align: center;
+}
+
+.metodos {
+    padding: 1.5em;
+    text-align: center;
+}
+
+.tiulometodo {
+    font-size: 1em;
+    color: #a30000;
+}
+
+.fa-puzzle-piece,
+.fa-ruler-combined,
+.fa-cogs,
+.fa-project-diagram,
+.fa-braille,
+.fa-language {
+    padding: 0.5em;
+    font-size: 3em;
+    color: #a30000;
+}
